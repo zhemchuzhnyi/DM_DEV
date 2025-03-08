@@ -1,19 +1,19 @@
 public class Peremennye {
 
     public static void main(String[] args) {
-        int value = 26;
+        int value = 36;
         System.out.println(value);
 
-        double value2 = 78.123;
+        double value2 = 79.123;
         System.out.println(value2);
 
         boolean booleanValue = true;
         System.out.println(booleanValue);
 
-        char testValue = 'a';
+        char testValue = 'p';
         System.out.println(testValue);
 
-        testValue = 't';
+        testValue = 'o';
         System.out.println(testValue);
 
     }
