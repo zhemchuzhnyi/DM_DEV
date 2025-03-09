@@ -7,13 +7,13 @@ public class Peremennye {
         double value2 = 79.193;
         System.out.println(value2);
 
-        boolean booleanValue = true;
+        boolean booleanValue = false;
         System.out.println(booleanValue);
 
-        char testValue = 'p';
+        char testValue = 'u';
         System.out.println(testValue);
 
-        testValue = 'o';
+        testValue = 'q';
         System.out.println(testValue);
 
     }
