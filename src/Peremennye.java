@@ -4,7 +4,7 @@ public class Peremennye {
         int value = 39;
         System.out.println(value);
 
-        double value2 = 79.183;
+        double value2 = 79.181;
         System.out.println(value2);
 
         boolean booleanValue = true;
