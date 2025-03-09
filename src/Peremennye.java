@@ -4,16 +4,16 @@ public class Peremennye {
         int value = 39;
         System.out.println(value);
 
-        double value2 = 79.193;
+        double value2 = 79.183;
         System.out.println(value2);
 
-        boolean booleanValue = false;
+        boolean booleanValue = true;
         System.out.println(booleanValue);
 
-        char testValue = 'u';
+        char testValue = 'r';
         System.out.println(testValue);
 
-        testValue = 'q';
+        testValue = 'w';
         System.out.println(testValue);
 
     }
