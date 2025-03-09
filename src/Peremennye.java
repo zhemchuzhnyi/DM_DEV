@@ -1,10 +1,10 @@
 public class Peremennye {
 
     public static void main(String[] args) {
-        int value = 36;
+        int value = 39;
         System.out.println(value);
 
-        double value2 = 79.123;
+        double value2 = 79.193;
         System.out.println(value2);
 
         boolean booleanValue = true;
