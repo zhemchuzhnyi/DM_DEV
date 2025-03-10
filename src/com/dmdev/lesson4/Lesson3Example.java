@@ -1,3 +1,5 @@
+package com.dmdev.lesson4;
+
 public class Lesson3Example {
 
     public static void main(String[] args) {

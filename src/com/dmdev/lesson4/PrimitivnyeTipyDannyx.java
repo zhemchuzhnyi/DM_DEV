@@ -1,3 +1,5 @@
+package com.dmdev.lesson4;
+
 public class PrimitivnyeTipyDannyx {
     public static void main(String[] args) {
 
