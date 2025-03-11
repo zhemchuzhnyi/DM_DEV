@@ -4,16 +4,16 @@ public class SwitchExample {
 
     public static void main(String[] args) {
         // byte, short, int, char, String, enum
-        int value = 2;
+        int value = 21;
         switch (value){
-            case 1:
-                System.out.println("value == 1");
+            case 10:
+                System.out.println("value == 10");
                 break;
             case 2:
                 System.out.println("value == 2");
                 break;
-            case 10:
-                System.out.println("value == 10");
+            case 100:
+                System.out.println("value == 100");
                 break;
             case 28:
                 System.out.println("value == 28");
