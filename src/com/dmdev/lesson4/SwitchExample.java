@@ -9,7 +9,7 @@ public class SwitchExample {
             case 1:
                 System.out.println("value == 1");
                 break;
-            case 20:
+            case 2:
                 System.out.println("value == 2");
                 break;
             case 10:
