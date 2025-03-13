@@ -4,7 +4,7 @@ public class SwitchExample {
 
     public static void main(String[] args) {
         // byte, short, int, char, String, enum
-        int value = 1;
+        int value = 10;
         switch (value){
             case 1:
                 System.out.println("value == 1");
