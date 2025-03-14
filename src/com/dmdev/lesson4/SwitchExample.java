@@ -6,7 +6,7 @@ public class SwitchExample {
         // byte, short, int, char, String, enum
         int value = 1;
         switch (value){
-            case 1:
+            case 10:
                 System.out.println("value == 1");
                 break;
             case 2:
