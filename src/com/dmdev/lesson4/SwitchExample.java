@@ -15,7 +15,7 @@ public class SwitchExample {
             case 10:
                 System.out.println("value == 10");
                 break;
-            case 228:
+            case 28:
                 System.out.println("value == 28");
                 break;
             default:
