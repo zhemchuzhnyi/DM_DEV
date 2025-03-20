@@ -8,7 +8,7 @@ package com.dmdev.task;
 public class Task1 {
 
     public static void main(String[] args) {
-        int month = 8;
+        int month = 4;
         // зима - 12 \ 1 \ 2
         // весна - 3 \ 4 \ 5
         // лето - 6 \ 7 \ 8
