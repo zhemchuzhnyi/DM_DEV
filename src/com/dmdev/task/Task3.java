@@ -21,6 +21,6 @@ public class Task3 {
             System.out.println(rubles + " рубля");
         } else {
         System.out.println(rubles + " рублей");
-    }
+        }
     }
 }
