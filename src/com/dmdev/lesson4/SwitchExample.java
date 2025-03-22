@@ -28,8 +28,8 @@ public class SwitchExample {
             case 11:
                 System.out.println("value == 11");
                 break;
-            case 29:
-                System.out.println("value == 29");
+            case 28:
+                System.out.println("value == 28");
                 break;
             default:
                 System.out.println("Нет такого значения");
