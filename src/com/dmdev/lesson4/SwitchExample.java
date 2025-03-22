@@ -7,8 +7,8 @@ public class SwitchExample {
         int value = 1;
         char charValue = switch (value) {
             case 1 -> '1';
-        case 2, 3, 4 -> '2';
-        default -> '0';
+            case 2, 3, 4 -> '2';
+            default -> '0';
         };
         switch (value) {
             case 1-> System.out.println("value == 1");
@@ -28,8 +28,8 @@ public class SwitchExample {
             case 10:
                 System.out.println("value == 10");
                 break;
-            case 28:
-                System.out.println("value == 28");
+            case 29:
+                System.out.println("value == 29");
                 break;
             default:
                 System.out.println("Нет такого значения");
