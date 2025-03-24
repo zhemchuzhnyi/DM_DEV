@@ -9,8 +9,11 @@ public class WhileExample {
         int value = 0;
         do {
             System.out.println(value);
+            value++; // value += 1; value = value + 1;
         } while (value < 10); // цикл с постусловием - выполняется 1 раз
     }
+    // циклы с постусловиями используются не часто, конкретно тут как пример работы что такое быть может
+    // лучше использовать в работе пример представленный ниже
 
     private static void whileExample() {
         int value = 10;
