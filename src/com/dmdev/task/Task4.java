@@ -17,13 +17,19 @@ package com.dmdev.task;
 public class Task4 {
 
     public static void main(String[] args) {
-        int year = 1901;
-        if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
-            System.out.println(year + " год високосный");
-        } else {
-            System.out.println(year + " год не високосный");
-        }
+        int value = 1991;
+        isLeapYear(value);
+    }
+
+    public static boolean isLeapYear(int year) {
+       return year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
+//        if (result) {
+//            return true;
+//        } else {
+//            return false;
+//        }
     }
 }
 
 // - если результата возвращаемой функции нет - тип void
+// - главное не название переменной , а значение которое она передает
