@@ -3,7 +3,7 @@ package com.dmdev.lesson6;
 public class ForExample {
 
     public static void main(String[] args) {
-        for (int value = 10; value > 0; value--) { // for состоит из 3х частей
+        for (int value = 10; value > 1; value--) { // for состоит из 3х частей
             System.out.println(value);
             if (value == 5) {
                 continue; // - возвращается к началу условия
