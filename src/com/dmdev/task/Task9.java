@@ -9,9 +9,9 @@ package com.dmdev.task;
 public class Task9 {
 
     public static void main(String[] args) {
- //       printLetters();
-        char value = 'c';
-        System.out.println((int) value);
+        printLetters();
+//        char value = 'c';
+//        System.out.println((int) value);
     }
     public static void printLetters() {
         for (char letter = 'b'; !isVowel(letter); letter++) {
