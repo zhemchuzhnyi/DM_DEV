@@ -9,7 +9,7 @@ package com.dmdev.task;
 public class Task7 {
 
     public static void main(String[] args) {
-        double sourceSum = 25;
+        double sourceSum = 26;
         double result = sum(sourceSum);
         System.out.println(result);
 
