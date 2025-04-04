@@ -8,7 +8,7 @@ package com.dmdev.task;
 public class Task8 {
 
     public static void main(String[] args) {
-        int value = 12;
+        int value = 11;
         boolean result = isSimple(value);
         System.out.println(result);
 
