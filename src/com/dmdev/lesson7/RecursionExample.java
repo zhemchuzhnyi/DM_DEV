@@ -7,29 +7,13 @@ package com.dmdev.lesson7;
 public class RecursionExample {
 
     public static void main(String[] args) {
-        int value = 5;
-        int result2 = factorialWhile(value);
-        System.out.println(result2);
+        // 1 * 2 * 3 * 4 * 5 * 6 = 6!
+    }
 
-        int result = factorialWhile(value);
-        System.out.println(result);
+    public static int factorial(int value) {
+        if(value == 1) {
+            return 1;
         }
-        public static int factorialWhile(int value) {
-            int result = 1;
-            int i = 1;
-            while (i <= value) {
-                result *= i;
-                i++;
-            }
-            return result;
-            }
-
-        public static int factorial(int value) {
-            int result = 1;
-            for (int i = 1; i <= value; i++) {
-                result *= i;
-            }
-
-            return result;
-            }
-        }
+        return value * factorial(value - 1);
+    }
+}
