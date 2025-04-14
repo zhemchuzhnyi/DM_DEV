@@ -1,6 +1,10 @@
 package com.dmdev.lesson7;
 
-public class Recursy {
+/*
+Написать программу высчитывающую факториал введенного числа (с помощью рекурсии)
+ */
+
+public class RecursionExample {
 
     public static void main(String[] args) {
         int value = 5;
